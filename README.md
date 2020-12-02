@@ -7,6 +7,7 @@
   - Contains all plots generated during the training and analysis of the models considered in this project. 
   - Figures are labeled with the prefix "HPT_" if they are one of the models found via hyperparameter tuning 
   (the only model not fitting this description is a reference random forest used for comparison against the main RF)
+  and otherwise include their corresponding model abbreviation (RF for random forest, SVR for support vector regressor, XGB for XGBoost regressor)
   - Figures describing feature importance are included
 - Results folder:
   - Contains saved models and their predictions of the target variable (predictions are stored for both the target delta values, and for the original stock price values of which
